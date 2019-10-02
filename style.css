@@ -1,0 +1,26 @@
+.form_content{
+   border: 2px solid #555; 
+   padding: 20px;
+   border-radius: 4px;
+}
+
+.filhos_group{
+    padding: 20px;
+    justify-content: space-between;
+    border: 1px solid #999;
+    border-radius: 4px;
+    display: flex;
+}
+.filho_input_group{
+    width: 100%;
+    max-width: 390px;
+    margin-right: 20px;
+}
+
+
+
+@media (max-width: 992px){
+    .filhos_group{
+        flex-direction: column;
+    }
+}
